@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Todo list
 
-Things you may want to cover:
+* Ruby version:
+ruby -v >= 2.6.0
 
-* Ruby version
+* System dependencies:
+included in Gemfile, note: gem 'sqlite3', '~> 1.3.6'  Most current version throws an error for some fucking reason.
 
-* System dependencies
+* Configuration:
+none at this time.
 
-* Configuration
+* Database:
+sqlite3
 
-* Database creation
+* Database initialization:
+rake db:migrate
 
-* Database initialization
+* How to run the test suite:
+N/A at this time
 
-* How to run the test suite
+* Services (job queues, cache servers, search engines, etc.):
+none at this time.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Deployment instructions:
+1. download/clone repo
+2. bundle install
+3. rake db:migrate
+4. rails server
 
-* Deployment instructions
-
-* ...
+* I'm sure this is riddled with bugs and terrible styling, feel free to submit a pull request if you fix something or make it look cool.
